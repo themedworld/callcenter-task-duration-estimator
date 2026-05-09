@@ -5,7 +5,7 @@ import pandas as pd
 import os
 from fastapi.middleware.cors import CORSMiddleware
 
-MODEL_PATH = "best_estimatedHours_task_callcenter_lgbm.joblib"
+MODEL_PATH = "./best_estimatedHours_task_callcenter_lgbm.joblib"
 
 print("FILES:", os.listdir("."))
 
