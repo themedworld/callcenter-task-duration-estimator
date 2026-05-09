@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 # =========================
 # Charger le modèle
 # =========================
-MODEL_PATH = "best_estimatedHours_task_callcenter_lgbm.joblib"
+MODEL_PATH = "./best_estimatedHours_task_callcenter_lgbm.joblib"
 model = joblib.load(MODEL_PATH)
 
 app = FastAPI(title="Estimated Hours API", version="1.0")
